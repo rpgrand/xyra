@@ -56,6 +56,40 @@
             font-size: 16px;
         }
 
+		.note {
+    margin-top: 25px;
+    padding: 15px;
+    background: #1a1a1a;
+    border: 2px solid #ff3b3b;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+    animation: warningPulse 1.5s infinite;
+}
+
+.note-title {
+    color: #ff3b3b;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.note-text {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@keyframes warningPulse {
+    0%, 100% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+    }
+
+    50% {
+        box-shadow: 0 0 25px rgba(255, 0, 0, 0.8);
+    }
+}
+		
     </style>
 </head>
 
@@ -69,11 +103,14 @@
 
         <h1>Welcome</h1>
 
-        <p>Neil Tubaon</p>
+        <p>Xyra Guardiano</p>
+        <p>Age:18</p>
+        <p>Address: Davao City</p>
 
-        <p>Age: 22</p>
-
-        <p>Address: Tabontabon Sibagat Agusan Del Sur</p>
+<div class="note">
+    <div class="note-title">⚠️ WARNING</div>
+    <div class="note-text">You Are Being Hacked Your Account will be compromised💀</div>
+</div>
 
     </div>
 
