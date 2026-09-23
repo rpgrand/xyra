@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+
+    <style>
+
+        body {
+            background: rgba(124, 118, 121, 0.8);
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            background: white;
+            width: 300px;
+            padding: 25px;
+            margin: 200px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        marquee {
+            display: block;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #ff6a00;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #e55d00;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <form action="index3.html">
+
+        <marquee>LOGIN</marquee>
+
+        <label>Username:</label>
+        <input type="text" name="username">
+
+        <label>Password:</label>
+        <input type="password" name="password">
+
+        <button type="submit" onclick="alert('Successfully Login!')">
+            Login
+        </button>
+
+    </form>
+
+</body>
+
+</html>
